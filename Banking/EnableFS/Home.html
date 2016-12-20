@@ -1,0 +1,2123 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>RCG|enable Financial Services</title>
+	<meta charset="utf-8" />
+    <link href="Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <link href="Content/StyleSheet.css" rel="stylesheet" />
+</head>
+<body>
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="Home.html">
+                    <span style="font-weight: bold;">RCG|</span>
+                    <span class="text-danger" style="font-weight: bold; font-size: large">enable</span>
+                    <span style="font-weight: bold;">™</span>
+                    <span style="font-style: italic;">Financial Services</span>
+                </a>
+            </div><!-- /.navbar-header -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Mike Summers</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search here...">
+                    </div>
+                    <button type="submit" class="btn btn-default" aria-label="Search">
+                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                    </button>
+                </form>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--HEADER AREA-->
+    <div class="row">
+        <div class="col-md-9">
+            <img src="images/rcg.png" />
+            <img src="images/ideas-realized.png" />
+        </div>
+        <div class="col-md-3">
+            <label style="font-size:larger">Financial Services Investigator Workbench</label><br />
+        </div>
+    </div><!-- row - End Header Area -->
+
+    <!--MAIN AREA-->
+    <div>
+        <h1></h1> <!--for spacing-->
+        <div class="container-fluid">
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#origList" aria-controls="origList" role="tab" data-toggle="tab"><strong style="font-size:large">Transactions</strong></a></li>
+                <li role="presentation"><a href="#postEntityMerge" aria-controls="postEntityMerge" role="tab" data-toggle="tab"><strong style="font-size:large">Post Entity Resolution</strong></a></li>
+                <li role="presentation"><a href="#postEntityIntelligence" aria-controls="postEntityIntelligence" role="tab" data-toggle="tab"><strong style="font-size:large">Post Event Triage</strong></a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="container-fluid table-bordered tab-content">
+                <div role="tabpanel" class="tab-pane active" id="origList">
+                    <h1></h1>
+                
+                    <div class="alert alert-info alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Information: </strong> 100 cases opened with traditional systems; Each case pertaining to a single transaction
+                    </div>
+
+                    <div class="panel">
+                        <table id="origList_table" class="table table-bordered table-hover table-responsive table-condensed table-striped">
+                            <thead>
+                                <tr style="background-color: grey">
+                                    <th>Case #</th>
+                                    <th>Party</th>
+                                    <th>Account Number</th>
+                                    <th>Rule Violated</th>
+                                    <th>Case Created</th>
+                                    <th>Primary Investigator</th>
+                                    <th>Case Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10001016</a></span></td>
+                                    <td>Lionel Curry</td>
+                                    <td>3149-1358924632-234</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/12/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10001221</a></span></td>
+                                    <td>Sue Green</td>
+                                    <td>5073-2570717988-182</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/12/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10001436</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>7394-2656622859-538</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/8/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10001450</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>2993-1607778110-514</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Jill Cuervo</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10001552</a></span></td>
+                                    <td>Patricia Jordan</td>
+                                    <td>1498-5667381913-514</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10001679</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>7351-4493817094-159</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/14/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10001835</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>5795-3407721674-192</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/5/2016</td>
+                                    <td>Stephen Strange</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10002299</a></span></td>
+                                    <td>Martha Green</td>
+                                    <td>7322-4789713591-809</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/9/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10002582</a></span></td>
+                                    <td>James Curry</td>
+                                    <td>4438-5381778709-129</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/24/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10002636</a></span></td>
+                                    <td>Sue Green</td>
+                                    <td>6132-3824947473-893</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/16/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10002710</a></span></td>
+                                    <td>Lionel Curry</td>
+                                    <td>2316-5127711593-844</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/16/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10003095</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>1916-5606241004-849</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/30/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003096</a></span></td>
+                                    <td>Sue Curry</td>
+                                    <td>5388-5833726149-528</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/11/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003214</a></span></td>
+                                    <td>Lionel Curry</td>
+                                    <td>3199-4148908254-279</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003287</a></span></td>
+                                    <td>Patrick Irving</td>
+                                    <td>7335-1830947268-277</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/28/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003363</a></span></td>
+                                    <td>James Curry</td>
+                                    <td>3876-2960075534-378</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/23/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10003537</a></span></td>
+                                    <td>Melissa Green</td>
+                                    <td>6763-3365363851-722</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/20/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003759</a></span></td>
+                                    <td>John Brandy</td>
+                                    <td>4890-4406831295-927</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/13/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10003797</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>4207-1312124521-876</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/29/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10003860</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>1048-5137003739-214</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/4/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003970</a></span></td>
+                                    <td>Lionel Curry</td>
+                                    <td>1127-4707427011-402</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/28/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10004081</a></span></td>
+                                    <td>Sean Francona</td>
+                                    <td>3469-4428682752-291</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10004480</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>7326-2494425304-469</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/17/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10005393</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>6376-5639816843-489</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/31/2016</td>
+                                    <td>John Walker</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10005471</a></span></td>
+                                    <td>Charles Richards</td>
+                                    <td>4137-5986294566-910</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/11/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10005634</a></span></td>
+                                    <td>Daphne Rodman</td>
+                                    <td>7476-5398783134-374</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/24/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10006069</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/11/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10006299</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/6/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10006788</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Annabeth Smith</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007241</a></span></td>
+                                    <td>Patricia Jordan</td>
+                                    <td>1498-5667381913-514</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/26/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007339</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>6057-2620395297-828</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/13/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007582</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/6/2016</td>
+                                    <td>Percy Chandler</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007599</a></span></td>
+                                    <td>Newt Richards</td>
+                                    <td>4269-5994386455-677</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007906</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/24/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10008499</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>2211-4574048151-384</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/11/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10008824</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>6244-2052791622-709</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/18/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10008835</a></span></td>
+                                    <td>Val Rodman</td>
+                                    <td>6596-1719203367-626</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10008924</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009091</a></span></td>
+                                    <td>Tyrone Smith</td>
+                                    <td>4252-3454682744-425</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/15/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009124</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>5478-4005838174-757</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/29/2016</td>
+                                    <td>Stephen Strange</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009382</a></span></td>
+                                    <td>Martha Green</td>
+                                    <td>2384-4788611151-419</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/20/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009587</a></span></td>
+                                    <td>Lionel Richards</td>
+                                    <td>4349-3228367162-710</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/10/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009736</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>5297-5757466069-390</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/16/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010112</a></span></td>
+                                    <td>Sue Castle</td>
+                                    <td>1750-3234531261-190</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/7/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010160</a></span></td>
+                                    <td>Samantha Thompson</td>
+                                    <td>4382-2093906598-513</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/15/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010246</a></span></td>
+                                    <td>Charles Winchester</td>
+                                    <td>3214-4159306849-144</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010489</a></span></td>
+                                    <td>Vanessa Edelman</td>
+                                    <td>5074-5404197223-572</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010637</a></span></td>
+                                    <td>Val Drayfuss</td>
+                                    <td>1949-5023075837-512</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010649</a></span></td>
+                                    <td>Val Drayfuss</td>
+                                    <td>1949-5023075837-512</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/23/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010791</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>2989-3410577146-765</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010946</a></span></td>
+                                    <td>Val Drayfuss</td>
+                                    <td>1949-5023075837-512</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/25/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011143</a></span></td>
+                                    <td>Sean Bolton</td>
+                                    <td>5487-1755854779-481</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011789</a></span></td>
+                                    <td>Tyrone Green</td>
+                                    <td>7315-3269137272-635</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011925</a></span></td>
+                                    <td>Dolores Jordan</td>
+                                    <td>3996-5139411293-832</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012172</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>4306-2102434521-279</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/22/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012243</a></span></td>
+                                    <td>Tyrone Smith</td>
+                                    <td>7362-3504083826-883</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012457</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/11/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012788</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>6599-1078213280-103</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/7/2016</td>
+                                    <td>Stephen Strange</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012820</a></span></td>
+                                    <td>Michael Brandy</td>
+                                    <td>4909-2468607617-835</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012890</a></span></td>
+                                    <td>Mark Jordan</td>
+                                    <td>1337-4100812336-813</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012921</a></span></td>
+                                    <td>Elle Frye</td>
+                                    <td>3883-4397061283-122</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012966</a></span></td>
+                                    <td>Joshua Brand</td>
+                                    <td>4158-1945658508-515</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013247</a></span></td>
+                                    <td>Ronald Drayfuss</td>
+                                    <td>4702-3924717402-751</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/9/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013527</a></span></td>
+                                    <td>Tyrion Chua</td>
+                                    <td>1734-2455652954-199</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/22/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013621</a></span></td>
+                                    <td>Martha Green</td>
+                                    <td>5798-3292386824-796</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/21/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013810</a></span></td>
+                                    <td>Susan Brady</td>
+                                    <td>5134-2160766873-609</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/21/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10014113</a></span></td>
+                                    <td>Harold Thompson</td>
+                                    <td>3168-5312338065-850</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10014479</a></span></td>
+                                    <td>Harold Thompson</td>
+                                    <td>3168-5312338065-850</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/22/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10014935</a></span></td>
+                                    <td>Vin Tatum</td>
+                                    <td>4662-3318103704-857</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/16/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10014974</a></span></td>
+                                    <td>Harold Thompson</td>
+                                    <td>3168-5312338065-850</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/13/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015275</a></span></td>
+                                    <td>John Brandy</td>
+                                    <td>7716-3666521060-745</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/13/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015387</a></span></td>
+                                    <td>Frank Castle</td>
+                                    <td>5323-4846605920-629</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/16/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015473</a></span></td>
+                                    <td>Lemuel Richards</td>
+                                    <td>7570-5580022713-348</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/25/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015610</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>3975-1755663358-360</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/31/2016</td>
+                                    <td>Stephen Strange</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015679</a></span></td>
+                                    <td>Frank Castle</td>
+                                    <td>5323-4846605920-629</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015718</a></span></td>
+                                    <td>Vanessa Chua</td>
+                                    <td>2915-1405085628-148</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/29/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015768</a></span></td>
+                                    <td>Samantha Love</td>
+                                    <td>6809-3037481130-247</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/5/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015773</a></span></td>
+                                    <td>Gary James</td>
+                                    <td>1116-4438503570-520</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/22/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10016013</a></span></td>
+                                    <td>Sue Green</td>
+                                    <td>2909-3030276344-835</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/20/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016149</a></span></td>
+                                    <td>Karen Beckham</td>
+                                    <td>5159-5953748633-855</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/12/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016165</a></span></td>
+                                    <td>Elle Rodman</td>
+                                    <td>1911-4018184355-205</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/23/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10016236</a></span></td>
+                                    <td>Melissa Green</td>
+                                    <td>3119-1837598823-140</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/15/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016365</a></span></td>
+                                    <td>Samantha Green</td>
+                                    <td>1168-4762201839-734</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016545</a></span></td>
+                                    <td>Val Rodman</td>
+                                    <td>6596-1719203367-626</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/27/2016</td>
+                                    <td>Stephen Strange</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016743</a></span></td>
+                                    <td>Tyrone Chan</td>
+                                    <td>7491-5960964729-788</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/24/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017094</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/24/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017246</a></span></td>
+                                    <td>Samantha Green</td>
+                                    <td>6796-2359738755-713</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/22/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017360</a></span></td>
+                                    <td>Martha Green</td>
+                                    <td>3853-2845744621-372</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/12/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017368</a></span></td>
+                                    <td>Ulysses David</td>
+                                    <td>2915-4284465996-462</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/17/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017557</a></span></td>
+                                    <td>Tyrion Taylor</td>
+                                    <td>5137-1235675615-111</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10018027</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>2109-2965087029-622</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/17/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10018260</a></span></td>
+                                    <td>Sue Green</td>
+                                    <td>2798-3472604665-174</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/21/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10018657</a></span></td>
+                                    <td>Ulysses Chan</td>
+                                    <td>1954-5334393880-434</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019072</a></span></td>
+                                    <td>Tyrone Smith</td>
+                                    <td>2423-4515074038-822</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/16/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019467</a></span></td>
+                                    <td>Karen Beckham</td>
+                                    <td>5159-5953748633-855</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/17/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019636</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>6376-5639816843-489</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/31/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr class="text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10019716</a></span></td>
+                                    <td>Sue Green</td>
+                                    <td>1968-5867825304-889</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/7/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019805</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>6599-1078213280-103</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/7/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019826</a></span></td>
+                                    <td>Uriel Morningstar</td>
+                                    <td>3107-2567826739-321</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/4/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019900</a></span></td>
+                                    <td>John Brandy</td>
+                                    <td>5756-4421388820-266</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!--Table for Original List-->
+                </div><!--origList tab-->
+                
+                <div role="tabpanel" class="tab-pane" id="postEntityMerge">
+                    <h1></h1>
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Information: </strong> 100 cases now down to 48 by merging at the party level
+                    </div>
+
+                    <div class="alert alert-warning alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Entity Merge: </strong> Account and Location information verification can now be done to make this possible
+                    </div>
+
+                    <div class="panel">
+                        <table id="postEntityMerge_table" class="table table-bordered table-hover table-responsive table-condensed table-striped">
+                            <thead>
+                                <tr style="background-color: grey">
+                                    <th>Case #</th>
+                                    <th>Party</th>
+                                    <th>Account Number</th>
+                                    <th>Rules Violated</th>
+                                    <th>Case Created</th>
+                                    <th>Primary Investigator</th>
+                                    <th>Case Status</th>
+                                    <th>Merge Reason</th>
+                                    <th>Merged Cases (Original Investigator)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="warning text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="#">10001221</a></span></td>
+                                    <td>Sue Green; Melissa Green</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit (5); Payment amount exceeded $15,000 (2)</td>
+                                    <td>10/12/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party information and location verification check</td>
+                                    <td>10002636 (Barry Allen); 10003537 (Dean Winchester); 10016013 (Barry Allen); 10016236 (Bob Marley); 10018260 (Elizabeth Graves); 10019716 (Scott Summers);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10003363</a></span></td>
+                                    <td>James Curry; Lionel Curry</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/23/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party information and location verification check</td>
+                                    <td>10001016 (Mike Summers); 10002582 (Elle Bishop); 10002710 (Elle Bishop); 10003214 (Elizabeth Graves); 10003970 (Elle Bishop);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10003759</a></span></td>
+                                    <td>John Brandy; Michael Brandy</td>
+                                    <td>Multiple</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/13/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party information and location verification check</td>
+                                    <td>10012820 (Bob Marley); 10015275 (Elle Bishop); 10019900 (Dean Winchester);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10016365</a></span></td>
+                                    <td>Martha Green; Samantha Green</td>
+                                    <td>Multiple</td>
+                                    <td>Payment amount exceeded $15,000 (3); Credit Card Balance has hit more than 90% of maximum limit; Transaction withdrawal amount exceeded $10,000; Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party information and location verification check</td>
+                                    <td>10009382 (Dean Winchester); 10002299 (Mike Summers); 10017360 (Warren Worthington III); 10013621 (Elle Bishop); 10017246 (Scott Summers);</td>
+                                </tr>
+                                <tr class="warning text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10003797</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>Multiple</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (5); Transfer amount to a new recipient exceeded $12,000 </td>
+                                    <td>10/29/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party verification check</td>
+                                    <td>10001835 (Stephen Strange); 10003095 (Hank McCoy); 10003860 (Scott Summers); 10008499 (Barry Allen); 10018027 (Barry Allen);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10009736</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/16/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party verification check</td>
+                                    <td>10008824 (Bob Marley); 10012172 (Dean Winchester); 10015610 (Stephen Strange);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10010791</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party verification check</td>
+                                    <td>10001436 (Bruce Banner); 10001679 (Dean Winchester); 10004480 (Bruce Banner); 10007339 (Dean Winchester); 10009124 (Stephen Strange);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10012243</a></span></td>
+                                    <td>Tyrone Smith</td>
+                                    <td>Multiple</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000; Transfer amount to a new recipient exceeded $12,000; Payment amount exceeded $15,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party verification check</td>
+                                    <td>10009091 (Mike Summers); 10019072 (Jason Chase)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10005393</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/31/2016</td>
+                                    <td>John Walker</td>
+                                    <td>Active</td>
+                                    <td>Accounts held by the same party as per party verification check; Party and Account information are the same for merged cases</td>
+                                    <td>10001450 (Jill Cuervo); 10012788 (Stephen Strange); 10019636 (Bob Marley); 10019805 (Bruce Banner)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10001552</a></span></td>
+                                    <td>Patricia Jordan</td>
+                                    <td>1498-5667381913-514</td>
+                                    <td>Payment amount exceeded $15,000; Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/26/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10007241 (Bob Marley)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10006069</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000 (2); Transaction withdrawal amount exceeded $10,000 (2)</td>
+                                    <td>10/21/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10007906 (Hank McCoy); 10012457 (Scott Summers); 10017094 (Bob Marley);</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10006788</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (2); Transfer amount to a new recipient exceeded $12,000 (2)</td>
+                                    <td>10/27/2016</td>
+                                    <td>Annabeth Smith</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10008924 (Elizabeth Graves); 10006299 (Jason Chase); 10007582 (Percy Chandler)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10008835</a></span></td>
+                                    <td>Val Rodman</td>
+                                    <td>6596-1719203367-626</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10016545 (Stephen Strange)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10010637</a></span></td>
+                                    <td>Rebecca C Glover</td>
+                                    <td>1949-5023075837-512</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (2); Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10010649 (Warren Worthington III); 10010946 (Dean Winchester)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10014974</a></span></td>
+                                    <td>Harold Thompson</td>
+                                    <td>3168-5312338065-850</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/19/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10014113 (Elizabeth Graves); 10014479 (Warren Worthington III)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10015679</a></span></td>
+                                    <td>Frank Castle</td>
+                                    <td>5323-4846605920-629</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10015387 (Bruce Banner)</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10016149</a></span></td>
+                                    <td>Karen Beckham</td>
+                                    <td>5159-5953748633-855</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/12/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>Party and Account information are the same for merged cases</td>
+                                    <td>10019467 (Elizabeth Graves);</td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003096</a></span></td>
+                                    <td>Sue Curry</td>
+                                    <td>5388-5833726149-528</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10003287</a></span></td>
+                                    <td>Patrick Irving</td>
+                                    <td>7335-1830947268-277</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/21/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10004081</a></span></td>
+                                    <td>Sean Francona</td>
+                                    <td>3469-4428682752-291</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/12/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10005471</a></span></td>
+                                    <td>Charles Richards</td>
+                                    <td>4137-5986294566-910</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/22/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10005634</a></span></td>
+                                    <td>Daphne Rodman</td>
+                                    <td>7476-5398783134-374</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/12/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10007599</a></span></td>
+                                    <td>Newt Richards</td>
+                                    <td>4269-5994386455-677</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10009587</a></span></td>
+                                    <td>Lionel Richards</td>
+                                    <td>4349-3228367162-710</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/10/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010112</a></span></td>
+                                    <td>Sue Castle</td>
+                                    <td>1750-3234531261-190</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/7/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010160</a></span></td>
+                                    <td>Samantha Thompson</td>
+                                    <td>4382-2093906598-513</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/15/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010246</a></span></td>
+                                    <td>Charles Winchester</td>
+                                    <td>3214-4159306849-144</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10010489</a></span></td>
+                                    <td>Vanessa Edelman</td>
+                                    <td>5074-5404197223-572</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011143</a></span></td>
+                                    <td>Sean Bolton</td>
+                                    <td>5487-1755854779-481</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011789</a></span></td>
+                                    <td>Tyrone Green</td>
+                                    <td>7315-3269137272-635</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10011925</a></span></td>
+                                    <td>Dolores Jordan</td>
+                                    <td>3996-5139411293-832</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012890</a></span></td>
+                                    <td>Mark Jordan</td>
+                                    <td>1337-4100812336-813</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012921</a></span></td>
+                                    <td>Elle Frye</td>
+                                    <td>3883-4397061283-122</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10012966</a></span></td>
+                                    <td>Joshua Brand</td>
+                                    <td>4158-1945658508-515</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013247</a></span></td>
+                                    <td>Ronald Drayfuss</td>
+                                    <td>4702-3924717402-751</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013527</a></span></td>
+                                    <td>Tyrion Chua</td>
+                                    <td>1734-2455652954-199</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10013810</a></span></td>
+                                    <td>Susan Brady</td>
+                                    <td>5134-2160766873-609</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/19/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10014935</a></span></td>
+                                    <td>Vin Tatum</td>
+                                    <td>4662-3318103704-857</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/16/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015473</a></span></td>
+                                    <td>Lemuel Richards</td>
+                                    <td>7570-5580022713-348</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/23/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015718</a></span></td>
+                                    <td>Vanessa Chua</td>
+                                    <td>2915-1405085628-148</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/29/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015768</a></span></td>
+                                    <td>Samantha Love</td>
+                                    <td>6809-3037481130-247</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/25/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10015773</a></span></td>
+                                    <td>Gary James</td>
+                                    <td>1116-4438503570-520</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016165</a></span></td>
+                                    <td>Elle Rodman</td>
+                                    <td>1911-4018184355-205</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10016743</a></span></td>
+                                    <td>Tyrone Chan</td>
+                                    <td>7491-5960964729-788</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/12/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017368</a></span></td>
+                                    <td>Ulysses David</td>
+                                    <td>2915-4284465996-462</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/15/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10017557</a></span></td>
+                                    <td>Tyrion Taylor</td>
+                                    <td>5137-1235675615-111</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10018657</a></span></td>
+                                    <td>Ulysses Chan</td>
+                                    <td>1954-5334393880-434</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td><span class="text-primary"><a href="#">10019826</a></span></td>
+                                    <td>Uriel Morningstar</td>
+                                    <td>3107-2567826739-321</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/29/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!--Table for Post Entity Merge List-->
+                </div><!--postEntityMerge tab-->
+
+                <div role="tabpanel" class="tab-pane" id="postEntityIntelligence">
+                    <h1></h1>
+
+                    <div class="alert alert-success alert-dismissible" role="alert">
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <strong>Entity Insights: </strong> By performing anallytics and pattern recognition, insights and recommendation can now be done.  Investigators can now focus on cases that are deemed as suspicious and close those that are not
+                    </div>
+
+                    <h3>
+                        <span class="label label-danger">Suspicious <span class="badge">5</span></span>
+                        <span class="label label-warning">Investigation Needed <span class="badge">20</span></span>
+                        <span class="label label-info">Recommend to Close <span class="badge">23</span></span>
+                    </h3>
+                    
+                    <div class="panel">
+                        <table id="postEntityIntelligence_table" class="table table-bordered table-hover table-responsive table-condensed table-striped">
+                            <thead>
+                                <tr style="background-color: grey">
+                                    <th>Case #</th>
+                                    <th>Party</th>
+                                    <th>Account Numbers</th>
+                                    <th>Rules Violated</th>
+                                    <th>Case Created</th>
+                                    <th>Primary Investigator</th>
+                                    <th>Case Status</th>
+                                    <th>Entity Insight</th>
+                                    <th>Recommendation</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="danger text-danger" style="font-weight:bolder">
+                                    <td><span class="text-danger"><a href="Info.html">10001221</a></span></td>
+                                    <td>Sue Green; Melissa Green</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit (5); Payment amount exceeded $15,000 (2)</td>
+                                    <td>10/12/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Case has similar account activity pattern as Case# 10016365; Closed case (stolen identity) has the same activity pattern</td>
+                                    <td>Suspicious activity detected - Investigation Needed</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td><span class="text-primary"><a href="#">10003363</a></span></td>
+                                    <td>James Curry; Lionel Curry</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/23/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td>Multiple accounts with different party information but same location detected</td>
+                                    <td>Suspicious activity detected - Investigation Needed</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td><span class="text-primary"><a href="#">10016365</a></span></td>
+                                    <td>Martha Green; Samantha Green</td>
+                                    <td>Multiple</td>
+                                    <td>Payment amount exceeded $15,000 (3); Credit Card Balance has hit more than 90% of maximum limit; Transaction withdrawal amount exceeded $10,000; Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                    <td>Case has similar account activity pattern as Case# 10001221; Closed case (stolen identity) has the same activity pattern</td>
+                                    <td>Suspicious activity detected - Investigation Needed</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td><span class="text-primary"><a href="#">10009736</a></span></td>
+                                    <td>Patrick Francona</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/16/2016</td>
+                                    <td>Elizabeth Graves</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Account is new (<3 years)</td>
+                                    <td>Suspicious activity detected - Investigation Needed</td>
+                                </tr>
+                                <tr class="danger">
+                                    <td><span class="text-primary"><a href="#">10010791</a></span></td>
+                                    <td>Karen Brady</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Account activity pattern is similar to closed Case# 00087471; Related case has been tagged as a stolen identity</td>
+                                    <td>Suspicious activity detected - Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10010160</a></span></td>
+                                    <td>Samantha Thompson</td>
+                                    <td>4382-2093906598-513</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/15/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Credit Balance has been maxed out after recent credit line increase;</td>
+                                    <td>Investigation Needed - Put on watchlist</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10012890</a></span></td>
+                                    <td>Mark Jordan</td>
+                                    <td>1337-4100812336-813</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Credit Balance has been maxed out after recent credit line increase;</td>
+                                    <td>Investigation Needed - Put on watchlist</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10013810</a></span></td>
+                                    <td>Susan Brady</td>
+                                    <td>5134-2160766873-609</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/19/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Credit Balance has been maxed out after recent credit line increase;</td>
+                                    <td>Investigation Needed - Put on watchlist</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10019826</a></span></td>
+                                    <td>Uriel Morningstar</td>
+                                    <td>3107-2567826739-321</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/29/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Credit Balance has been maxed out after recent credit line increase;</td>
+                                    <td>Investigation Needed - Put on watchlist</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10003759</a></span></td>
+                                    <td>John Brandy; Michael Brandy</td>
+                                    <td>Multiple</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/13/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>Multiple accounts use the same SSN but different name; Prior case found and was resolved without issues</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10006069</a></span></td>
+                                    <td>Lionel Taylor</td>
+                                    <td>2527-5192445799-418</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000 (2); Transaction withdrawal amount exceeded $10,000 (2)</td>
+                                    <td>10/21/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known medical institution</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10006788</a></span></td>
+                                    <td>Ulysses Love</td>
+                                    <td>3229-3160005316-834</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (2); Transfer amount to a new recipient exceeded $12,000 (2)</td>
+                                    <td>10/27/2016</td>
+                                    <td>Annabeth Smith</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known medical institution</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10008835</a></span></td>
+                                    <td>Val Rodman</td>
+                                    <td>6596-1719203367-626</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10016149</a></span></td>
+                                    <td>Karen Beckham</td>
+                                    <td>5159-5953748633-855</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/12/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10003096</a></span></td>
+                                    <td>Sue Curry</td>
+                                    <td>5388-5833726149-528</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recent deposit detected on account that matches withdrawal amount</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10004081</a></span></td>
+                                    <td>Sean Francona</td>
+                                    <td>3469-4428682752-291</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/12/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10005634</a></span></td>
+                                    <td>Daphne Rodman</td>
+                                    <td>7476-5398783134-374</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/12/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10010112</a></span></td>
+                                    <td>Sue Castle</td>
+                                    <td>1750-3234531261-190</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/7/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10010489</a></span></td>
+                                    <td>Vanessa Edelman</td>
+                                    <td>5074-5404197223-572</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/18/2016</td>
+                                    <td>Hank McCoy</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10011789</a></span></td>
+                                    <td>Tyrone Green</td>
+                                    <td>7315-3269137272-635</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/17/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10011925</a></span></td>
+                                    <td>Dolores Jordan</td>
+                                    <td>3996-5139411293-832</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10013527</a></span></td>
+                                    <td>Tyrion Chua</td>
+                                    <td>1734-2455652954-199</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10015473</a></span></td>
+                                    <td>Lemuel Richards</td>
+                                    <td>7570-5580022713-348</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>11/23/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10015718</a></span></td>
+                                    <td>Vanessa Chua</td>
+                                    <td>2915-1405085628-148</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/29/2016</td>
+                                    <td>Bob Marley</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="warning">
+                                    <td><span class="text-primary"><a href="#">10018657</a></span></td>
+                                    <td>Ulysses Chan</td>
+                                    <td>1954-5334393880-434</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity</td>
+                                    <td>Investigation Needed</td>
+                                </tr>
+                                <tr class="info text-primary" style="font-weight:bolder">
+                                    <td><span class="text-primary"><a href="#">10003797</a></span></td>
+                                    <td>Denise Taylor</td>
+                                    <td>Multiple</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (5); Transfer amount to a new recipient exceeded $12,000 </td>
+                                    <td>10/29/2016</td>
+                                    <td>Jason Chase</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10012243</a></span></td>
+                                    <td>Tyrone Smith</td>
+                                    <td>Multiple</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000; Transfer amount to a new recipient exceeded $12,000; Payment amount exceeded $15,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10005393</a></span></td>
+                                    <td>Patrick Tatum</td>
+                                    <td>Multiple</td>
+                                    <td>Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/31/2016</td>
+                                    <td>John Walker</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10001552</a></span></td>
+                                    <td>Patricia Jordan</td>
+                                    <td>1498-5667381913-514</td>
+                                    <td>Payment amount exceeded $15,000; Credit Card Balance has hit more than 90% of maximum limit</td>
+                                    <td>10/26/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10010637</a></span></td>
+                                    <td>Rebecca C Glover</td>
+                                    <td>1949-5023075837-512</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000 (2); Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10014974</a></span></td>
+                                    <td>Harold Thompson</td>
+                                    <td>3168-5312338065-850</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/19/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Prior case found and was resolved without issues</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10015679</a></span></td>
+                                    <td>Frank Castle</td>
+                                    <td>5323-4846605920-629</td>
+                                    <td>Transaction withdrawal amount exceeded $10,000</td>
+                                    <td>11/1/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Prior case found and was resolved without issues</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10003287</a></span></td>
+                                    <td>Patrick Irving</td>
+                                    <td>7335-1830947268-277</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/21/2016</td>
+                                    <td>Mike Summers</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10005471</a></span></td>
+                                    <td>Charles Richards</td>
+                                    <td>4137-5986294566-910</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/22/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10007599</a></span></td>
+                                    <td>Newt Richards</td>
+                                    <td>4269-5994386455-677</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/20/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known medical institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10009587</a></span></td>
+                                    <td>Lionel Richards</td>
+                                    <td>4349-3228367162-710</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/10/2016</td>
+                                    <td>Elle Bishop</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10010246</a></span></td>
+                                    <td>Charles Winchester</td>
+                                    <td>3214-4159306849-144</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>11/14/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known medical institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10011143</a></span></td>
+                                    <td>Sean Bolton</td>
+                                    <td>5487-1755854779-481</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10012921</a></span></td>
+                                    <td>Elle Frye</td>
+                                    <td>3883-4397061283-122</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>11/3/2016</td>
+                                    <td>Scott Summers</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10012966</a></span></td>
+                                    <td>Joshua Brand</td>
+                                    <td>4158-1945658508-515</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10013247</a></span></td>
+                                    <td>Ronald Drayfuss</td>
+                                    <td>4702-3924717402-751</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/21/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10014935</a></span></td>
+                                    <td>Vin Tatum</td>
+                                    <td>4662-3318103704-857</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/16/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10015768</a></span></td>
+                                    <td>Samantha Love</td>
+                                    <td>6809-3037481130-247</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/25/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10015773</a></span></td>
+                                    <td>Gary James</td>
+                                    <td>1116-4438503570-520</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/26/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10016165</a></span></td>
+                                    <td>Elle Rodman</td>
+                                    <td>1911-4018184355-205</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/27/2016</td>
+                                    <td>Barry Allen</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10016743</a></span></td>
+                                    <td>Tyrone Chan</td>
+                                    <td>7491-5960964729-788</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/12/2016</td>
+                                    <td>Dean Winchester</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10017368</a></span></td>
+                                    <td>Ulysses David</td>
+                                    <td>2915-4284465996-462</td>
+                                    <td>Transfer amount to a new recipient exceeded $12,000</td>
+                                    <td>10/15/2016</td>
+                                    <td>Warren Worthington III</td>
+                                    <td>Active</td>
+                                    <td>No prior history of similar account activity; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                                <tr class="info">
+                                    <td><span class="text-primary"><a href="#">10017557</a></span></td>
+                                    <td>Tyrion Taylor</td>
+                                    <td>5137-1235675615-111</td>
+                                    <td>Payment amount exceeded $15,000</td>
+                                    <td>10/19/2016</td>
+                                    <td>Bruce Banner</td>
+                                    <td>Active</td>
+                                    <td>Prior history of similar account activity found; Recipient is a known educational institution</td>
+                                    <td>Recommend to close</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div> <!--Table for Post Entity Intelligence List-->
+                </div><!--postEntityIntelligence tab-->
+            </div> <!--Tab panes-->
+        </div> <!--Overall tab-->
+    </div>
+    <!--End MAIN AREA-->
+
+    <!-- JS area -->
+    <script src="JS/jquery-1.10.2.min.js"></script>
+    <script src="JS/bootstrap.min.js"></script>
+    <script type="text/javascript">
+    </script>
+</body>
+</html>
